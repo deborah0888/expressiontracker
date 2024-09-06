@@ -1,0 +1,124 @@
+#splashScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:"C:\Users\admin\Downloads\game\nature.jpg";
+    background-size:cover;
+     /* Prevents image from repeating */
+    color: white; /* Adjust text color for better visibility */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+#splashScreen h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:#333
+}
+
+#splashScreen button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+}
+
+#splashScreen button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+
+#gameContainer {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wordDisplay {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#puzzleImage {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.selected {
+    background-color: #ffeb3b;
+}
+
+.found {
+    background-color: #4caf50;
+    color: white;
+}
+.cell.wrong
+{
+    background-color: red;
+    color : white;
+}
+#feedback
+{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color : hwb(32 white black);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4caf50;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+}
+
+button:hover {
+    background-color:#45a049;
+}
