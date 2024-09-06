@@ -277,6 +277,7 @@ const WordPuzzleGame = () => {
     </div>
   );
 };
+console.log("i can edit");
 
 export default WordPuzzleGame;
 
